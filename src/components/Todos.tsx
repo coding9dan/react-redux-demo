@@ -24,8 +24,9 @@ export const Todos = () => {
     todos: [
       { text: "one", complete: false },
       { text: "two", complete: true },
+      { text: "three", complete: true },
     ],
-    todoCount: 2,
+    todoCount: 3,
   });
   const [text, setText] = useState<string>("");
 
